@@ -15,3 +15,12 @@ echo "Nome: {$gerente->nome}\n";
 echo "Salário: {$gerente->salario}\n";
 echo "Usuario: {$gerente->usuario}\n";
 echo "Senha: {$gerente->senha}\n";
+
+$secretaria = new Secretaria();
+$secretaria->nome = "Jonas";
+$secretaria->salario = 7000;
+$secretaria->ramal = 6241;
+
+echo "Secretaria: {$secretaria->nome}\n";
+echo "Salário: {$secretaria->salario}\n";
+echo "Ramal: {$secretaria->ramal}\n";
