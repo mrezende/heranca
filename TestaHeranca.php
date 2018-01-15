@@ -11,6 +11,7 @@ $gerente->salario = 15000;
 $gerente->usuario = "joao";
 $gerente->senha = "senha";
 
+echo "Informações do gerente: \n";
 echo "Nome: {$gerente->nome}\n";
 echo "Salário: {$gerente->salario}\n";
 echo "Usuario: {$gerente->usuario}\n";
