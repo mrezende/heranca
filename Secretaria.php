@@ -2,6 +2,6 @@
 
 class Secretaria extends Funcionario
 {
-  public $ramal;
+  public $estacaoDeTrabalho;
 
 }
