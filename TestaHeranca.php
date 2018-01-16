@@ -34,3 +34,12 @@ $secretaria->estacaoDeTrabalho = 7393;
 echo "Secretaria: {$secretaria->nome}\n";
 echo "Salário: {$secretaria->salario}\n";
 echo "Estação de trabalho: {$secretaria->estacaoDeTrabalho}\n";
+
+$telefonista = new Telefonista();
+$telefonista->nome = "Joana";
+$telefonista->salario = 4000;
+$telefonista->ramal = 333;
+
+echo "Telefonista: {$telefonista->nome}" . PHP_EOL;
+echo "Salário: {$telefonista->salario}" . PHP_EOL;
+echo "Ramal: {$telefonista->ramal}" . PHP_EOL;
